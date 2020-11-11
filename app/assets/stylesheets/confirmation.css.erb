@@ -1,3 +1,5 @@
+	//= depend_on_asset "arrow3.png"
+	
 	*{
 			box-sizing: border-box;
 			padding: 0;
@@ -25,7 +27,7 @@
 			content: '';
 			width: 32px;
 			height: 32px;
-			background: url('arrow3.png') no-repeat;
+			background: url('<%= asset_path("arrow3.png") %> ') no-repeat;
 			background-size: 32px;
 			right: -30px;
 			top: 50%;
