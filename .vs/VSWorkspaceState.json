@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\assets",
-    "\\app\\assets\\stylesheets",
     "\\app\\controllers",
+    "\\app\\javascript",
+    "\\app\\javascript\\packs",
     "\\app\\views",
     "\\app\\views\\confirmation",
     "\\app\\views\\options",
     "\\config",
     "\\db"
   ],
-  "SelectedNode": "\\db\\schema.rb",
+  "SelectedNode": "\\app\\javascript\\packs\\application.js",
   "PreviewInSolutionExplorer": false
 }
