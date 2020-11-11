@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Options</h1>
+
+<table class="table table-dark">
+  <tbody>
+     <tr>
+      <td>Option 1</td>
+      <td>Option 2</td>
+      <td>Option 3</td>
+      <td>Option 4</td>
+      <td>Option 5</td>
+      <td>Option 6</td>
+      <td>Option 7</td>
+      <td>Option 8</td>
+      <td>Edit</td>
+      <td>Delete</td>
+    </tr>
+ 
+
+  
+    <% @options.each do |option| %>
+      <tr>
+        <td><%= option.name %></td>
+         <td><%= option.name1 %></td>
+          <td><%= option.name2 %></td>
+           <td><%= option.name3 %></td>
+            <td><%= option.name4 %></td>
+             <td><%= option.name5 %></td>
+              <td><%= option.name6 %></td>
+               <td><%= option.name7 %></td>
+                
+        <td><%= link_to 'Edit', edit_option_path(option), class: 'btn btn-warning' %></td>
+        <td><%= button_to 'Delete Options', option, method: :delete, class: 'btn btn-danger'  %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<div class="btn-group" role="group">
+<%= link_to "Wheel", confirmation_wheel_path, class: 'btn btn-success' %>
+
+<%= link_to 'New Options', new_option_path, class: 'btn btn-primary' %>
+
+    </div>
+
+    <h2><b>Note: the wheel can only accomodate a maximum of 8 options</b></h2>

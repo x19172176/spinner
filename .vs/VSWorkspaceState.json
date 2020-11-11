@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\assets",
+    "\\app\\assets\\stylesheets",
+    "\\app\\controllers",
+    "\\app\\views",
+    "\\app\\views\\confirmation",
+    "\\app\\views\\options",
+    "\\config",
+    "\\db"
+  ],
+  "SelectedNode": "\\db\\schema.rb",
+  "PreviewInSolutionExplorer": false
+}
